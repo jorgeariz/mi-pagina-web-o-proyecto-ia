@@ -99,10 +99,10 @@ composer install
 
 3. Ejecutar en entorno de desarrollo
 
-1. Copiar la carpeta del proyecto dentro del directorio `htdocs` de XAMPP.
-2. Iniciar los servicios **Apache** y **MySQL** desde el panel de control de XAMPP.
-3. Importar el archivo `database.sql` en phpMyAdmin para crear la base de datos y las tablas necesarias.
-4. Acceder al proyecto desde el navegador mediante la siguiente dirección:
+Copiar la carpeta del proyecto dentro del directorio `htdocs` de XAMPP.
+Iniciar los servicios **Apache** y **MySQL** desde el panel de control de XAMPP.
+Importar el archivo `database.sql` en phpMyAdmin para crear la base de datos y las tablas necesarias.
+Acceder al proyecto desde el navegador mediante la siguiente dirección:
 
 ```text
 http://localhost/gamestore
