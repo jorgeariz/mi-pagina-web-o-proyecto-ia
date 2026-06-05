@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#121212;
+    color:white;
+}
+
+header{
+    background:#1f1f1f;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+nav a:hover{
+    color:#00ccff;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+.boton{
+    background:#00ccff;
+    color:black;
+    padding:15px 25px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.boton:hover{
+    background:white;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1f1f1f;
+}
+
+.formulario{
+    width:400px;
+    margin:50px auto;
+    background:#1f1f1f;
+    padding:30px;
+    border-radius:10px;
+}
+
+.formulario h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.formulario input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:5px;
+}
+
+.formulario button{
+    width:100%;
+    padding:12px;
+    background:#00ccff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.formulario button:hover{
+    background:white;
+}
+
+.usuario{
+    margin-left:15px;
+    margin-right:15px;
+    font-weight:bold;
+    color:#00ccff;
+}
+
+.destacados{
+    padding:50px;
+    text-align:center;
+}
+
+.contenedor-juegos{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.juego{
+    width:250px;
+    background:#1f1f1f;
+    padding:15px;
+    border-radius:10px;
+}
+
+.juego img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.juego h3{
+    margin-top:10px;
+}
+
+.juego p{
+    margin-top:10px;
+}
+
+.catalogo{
+    padding:50px;
+    text-align:center;
+}
+
+.catalogo h2{
+    margin-bottom:30px;
+}
+
+.detalle-juego{
+    width:700px;
+    margin:50px auto;
+    background:#1f1f1f;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.detalle-juego img{
+    width:300px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.detalle-juego p{
+    margin:20px 0;
+    line-height:1.6;
+}
+
+.detalle-juego h3{
+    color:#00ccff;
+    margin-bottom:20px;
+}
+
+.admin-panel{
+    width:90%;
+    margin:40px auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#1f1f1f;
+}
+
+th,td{
+    padding:15px;
+    border:1px solid #444;
+    text-align:center;
+}
+
+th{
+    background:#00ccff;
+    color:black;
+}
+
+td a{
+    color:#00ccff;
+    text-decoration:none;
+}
